@@ -1,0 +1,74 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:id="@+id/ingredientsContainer">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <!-- Quantity TextInputLayout and EditText -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/ingredientQuant"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Amount"
+                    android:inputType="number"
+                    android:text="0" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- "of" TextView -->
+
+
+            <!-- Spinner -->
+            <Spinner
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:background="@drawable/custom_spinner"
+                android:id="@+id/ingredientMeasureType"
+                android:entries="@array/ingredient_measurements"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="of"
+                android:gravity="center_vertical"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:textSize="15sp"
+                android:layout_marginRight="10dp"
+                android:textColor="@android:color/white"/>
+
+            <!-- Ingredient TextInputLayout and EditText -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/ingredient"
+                    android:hint="Ingredient"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+</LinearLayout>
+</LinearLayout>

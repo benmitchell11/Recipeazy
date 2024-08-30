@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Recipeazy" parent="Theme.Material3.DayNight.NoActionBar">
+
+    </style>
+
+    <style name="Theme.Recipeazy" parent="Base.Theme.Recipeazy" >
+        <item name="colorPrimary">@color/forestGreen</item>
+    </style>
+
+</resources>

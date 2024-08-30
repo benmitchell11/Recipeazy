@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="180dp"
+    android:layout_height="180dp"
+    app:cardCornerRadius="8dp"
+    android:elevation="16dp"
+    android:padding="20dp"
+    android:background="@color/forestGreen"
+    android:orientation="vertical"
+    android:gravity="center"
+    app:cardBackgroundColor="@color/forestGreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:id="@+id/imageView"
+            android:layout_marginTop="10dp"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recipe Name"
+            android:id="@+id/titleTextView"
+            android:textSize="20dp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

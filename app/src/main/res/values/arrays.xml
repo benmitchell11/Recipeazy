@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Array for Ingredient Measurement Types -->
+    <!-- Plural Forms -->
+    <plurals name="ingredient_measurement_plural">
+        <item quantity="other">%s %s</item>
+        <item quantity="one">%s %s</item>
+    </plurals>
+
+    <!-- Singular Forms -->
+    <string name="ingredient_measurement_singular">Null %s</string>
+
+    <!-- Measurement Types -->
+    <string-array name="ingredient_measurements">
+        <item>Gram</item>
+        <item>Kilogram</item>
+        <item>Milliliter</item>
+        <item>Cup</item>
+        <item>Liter</item>
+        <item>Can</item>
+        <item>Tablespoon</item>
+        <item>Teaspoon</item>
+        <item>Null</item>
+        <!-- Add more measurement types as needed -->
+    </string-array>
+
+    <!-- Array for Recipe Categories -->
+    <string-array name="recipe_categories">
+        <item>Any Category</item>
+        <item>Appetizer recipes</item>
+        <item>Baked-goods recipes</item>
+        <item>Breakfast recipes</item>
+        <item>Cookbook Reviews</item>
+        <item>Dessert recipes</item>
+        <item>Dinner recipes</item>
+        <item>Holiday recipes</item>
+        <item>Lunch recipes</item>
+        <item>Main-course recipes</item>
+        <item>Salad recipes</item>
+        <item>Side-dish recipes</item>
+        <item>Snack recipes</item>
+        <item>Soup recipes</item>
+    </string-array>
+</resources>
